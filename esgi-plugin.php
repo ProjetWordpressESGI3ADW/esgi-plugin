@@ -9,4 +9,4 @@
 * License: A "Slug" license name e.g. GPL2
 */
 
-include "esgi-functions.php";
+include_once plugin_dir_path(__FILE__) . "/esgi-functions.php";
