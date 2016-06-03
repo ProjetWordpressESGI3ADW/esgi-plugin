@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
                         "src", 
                         hero.thumbnail.path + "." + hero.thumbnail.extension
                     );
-                    $result.find(".js-hero-details").attr("href", hero.urls[0]);
+                    $result.find(".js-hero-details").attr("href", hero.urls[0].url);
                     $result.find(".js-hero-data").fadeIn();
                 } else {
                     $result.find(".js-hero-data").hide();
